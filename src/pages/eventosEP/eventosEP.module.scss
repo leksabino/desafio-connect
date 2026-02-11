@@ -1,0 +1,24 @@
+.page { padding: 30px 24px; }
+
+.title {
+  color: #205691;
+  font-size: 44px;
+  text-align: center;
+  font-weight: 900;
+  margin: 10px 0 20px;
+}
+
+.lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.col { width: 33.33%; display: flex; }
+.colSep { border-left: 1px solid #d9d9d9; }
+
+@media (max-width: 1024px) {
+  .lista { flex-direction: column; }
+  .col { width: 100%; }
+  .colSep { border-left: 0; }
+}

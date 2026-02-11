@@ -1,0 +1,114 @@
+.page {
+  padding: 50px 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.profileCard {
+  width: 100%;
+  max-width: 1080px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  padding: 28px 28px;
+  display: flex;
+  align-items: center;
+}
+
+.avatarWrap {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 8px solid #00aaff;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+  padding-left: 18px;
+}
+
+.name {
+  font-size: 44px;
+  font-weight: 900;
+  color: #111;
+  line-height: 1.05;
+}
+
+.role {
+  margin-top: 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #2f8f2f;
+}
+
+.bio {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #111;
+  max-width: 700px;
+}
+
+.meta {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+  margin-bottom: 10px;
+  color: #111;
+  font-size: 15px;
+}
+
+.icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.tags {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags span {
+  background: #cfe3d1;
+  color: #1f7a2b;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  .profileCard {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .avatarWrap {
+    width: 100%;
+  }
+
+  .info {
+    padding-left: 0;
+    margin-top: 16px;
+  }
+
+  .meta {
+    justify-content: center;
+  }
+}

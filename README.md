@@ -52,3 +52,6 @@ A **CONNECT** é uma plataforma front-end criada para **dar visibilidade a proje
 1) Instale as dependências:
 ```bash
 npm install
+
+2) Rodar o projeto:
+npm run dev
